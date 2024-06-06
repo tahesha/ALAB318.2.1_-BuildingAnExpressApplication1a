@@ -1,0 +1,22 @@
+// layout.pug
+doctype html
+html
+  head
+    title My Express App
+  body
+    header
+      h1 My Express App
+      link(rel="stylesheet", href="/CSS/styles.css")
+      nav
+        ul
+          li
+            a(href="/") Home
+          li
+            a(href="/about") About
+          li
+            a(href="/index") Index
+          li
+            a(href="/user/123") User Profile
+    block content
+    footer
+    p Copyright © 2024 My Express App
